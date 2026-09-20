@@ -61,7 +61,16 @@ footer{background:#111;color:#fff;padding:28px 18px;margin-top:20px}footer .inne
 <div class="delivery">🛵 Delivery: ₹10 within 1 km · ₹15 for 1–2 km · Beyond 2 km: confirm by phone.</div>
 <input class="field" id="name" placeholder="Your name">
 <input class="field" id="address" placeholder="Delivery address">
-<select class="field" id="distance"><option value="10">Distance: up to 1 km — ₹10</option><option value="15">Distance: 1–2 km — ₹15</option></select>
+<select class="field" id="distance">
+  <option value="10">Distance: up to 1 km — ₹10</option>
+  <option value="18">Distance: 1-2 km — ₹18</option>
+  <option value="25">Distance: 2-3 km — ₹25</option>
+  <option value="30">Distance: 3-4 km — ₹30</option>
+  <option value="35">Distance: 4-5 km — ₹35</option>
+  <option value="46">Distance: 5-6 km — ₹46</option>
+  <option value="45">Distance: 6-7 km — ₹45</option>
+</select>
+
 <div class="total"><span>Total</span><span id="total">₹0</span></div>
 <button class="order" onclick="placeOrder()">Place order on WhatsApp</button>
 </aside>
